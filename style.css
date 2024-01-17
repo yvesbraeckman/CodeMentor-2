@@ -1,0 +1,98 @@
+@font-face {
+    font-family: WorkSans;
+    src: url("/CodeMentor-2/assets/fonts/WorkSans-VariableFont_wght.ttf")  format('truetype');
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: WorkSans;
+}
+
+p{
+    display: none;
+    margin-bottom: 1rem;
+    color: rgba(149, 131, 145, 0.894);
+}
+
+h3{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+section{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    min-height: 60%;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+div {
+    display: flex;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(149, 131, 145, 0.894);
+}
+
+.noborder{
+    border: none;
+}
+
+button{
+    background-color: white;
+    border: none;
+    display: inline-block;
+    height: 25px;
+}
+
+.header{
+    height: 10%;
+    justify-content: left;
+}
+
+img {
+    width: 35px;
+}
+
+.show{
+    display: block;
+}
+
+.attribution{
+    display: none;
+}
+
+h1{
+    display: inline;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.star{
+    display: inline;
+    size: 70%;
+}
+
+.plus{
+
+}
